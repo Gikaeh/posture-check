@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "@augmentos/sdk": "^1.1.19",
+    "@mentra/sdk": "^2.0.2",
+    "bun": "^1.2.17",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.6",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "name": "posture-check",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "bun src/index.ts",
+    "dev": "bun --hot src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gikaeh/posture-check.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gikaeh/posture-check/issues"
+  },
+  "description": "",
+  "packageManager": "^bun@1.2.17"
+}
